@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    }
+
+.main-div{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),url(/src/component/images/IN-en-20240422-POP_SIGNUP_TWO_WEEKS-perspective_WEB_db9348f2-4d68-4934-b495-6d9d1be5917e_medium.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    padding: 30px;
+    margin-bottom: 5px;
+}
+
+.navbar{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo{ 
+    font-size: 40px;
+    color: rgb(229, 9, 20);
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+
+.signin-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown-div{
+    border: 1px solid rgb(126, 124, 124);
+    border-radius: 5px;
+    padding: 8px 10px;
+    margin: auto 10px;
+}
+.dropdown-div i{
+    color: white;
+}
+
+.dropdown{
+    border: none;
+    background: transparent;
+    color: white;
+}
+
+.btn{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(229, 9, 20);
+    color: white;
+}
+
+.main-heading{
+    width: 80%;
+    margin: 150px auto;
+}
+
+.main-heading h5{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.para-center{
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 10px auto;
+    margin-top: 30px;
+    color: white;
+}
+
+.email-mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+.email-div{
+    padding: 15px 80px 15px 15px;
+    border-radius: 5px;
+    margin: auto 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(163, 160, 160);
+    background:transparent;
+   
+}
+
+.get-started{
+    padding: 12px 25px;
+    font-size: x-large;
+} 
+
+/* second div */
+
+.second-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding-bottom: 100px;
+}
+
+
+.second-div-same{
+    text-align: left;
+    width: 70%;
+}
+
+
+.second-div-para{
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    margin: 10px auto;
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 30px;
+    color: white;
+}
+
+
+.second-div-h2{
+    font-size: 3rem;
+}
+
+
+video{
+   width: 340px;
+   position: absolute;
+   right: 270px;
+   top: 780px;
+   
+}
+
+
+
+
+
+
+
